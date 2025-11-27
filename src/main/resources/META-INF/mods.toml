@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="xmserversync"
+version="1.0.0"
+displayName="Xaero's Map Server Sync"
+authors="Zapeu"
+description='''
+A lightweight mod that automatically synchronizes Xaero’s map data between client and server, preventing data loss and ensuring consistent exploration data.
+'''
+
+[[dependencies.xmserversync]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.xmserversync]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,)"
+    ordering="NONE"
+    side="BOTH"
